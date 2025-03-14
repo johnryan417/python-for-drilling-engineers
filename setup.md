@@ -46,13 +46,15 @@ If Python is not installed, download and install it from [python.org](https://ww
 ---
 
 ### **2.2 Install Git and GitHub Desktop (Optional)**
-#### **Option 1: Install Git (Command Line Users)**
-Download and install Git from [git-scm.com](https://git-scm.com/downloads).
+#### **Option 1: Install GitHub Desktop (For Beginners)**
+1. Sign up for a free GitHub account, or sign in if you already have one at [github.com](https://github.com/).
+2. Download **GitHub Desktop** from [desktop.github.com](https://desktop.github.com/).
+3. Install and sign in to your GitHub account.
+4. Use GitHub Desktop to **clone** the repository (see Step 3.2).
 
-#### **Option 2: Install GitHub Desktop (For Beginners)**
-1. Download **GitHub Desktop** from [desktop.github.com](https://desktop.github.com/).
-2. Install and sign in to your GitHub account.
-3. Use GitHub Desktop to **clone** the repository (see Step 3.2).
+
+#### **Option 2: Install Git (Command Line Users)**
+Download and install Git from [git-scm.com](https://git-scm.com/downloads).
 
 ---
 
@@ -67,18 +69,20 @@ Download and install Git from [git-scm.com](https://git-scm.com/downloads).
 - Open **Terminal** (`Cmd + Space`, type `Terminal`, press Enter).
 
 ### **3.2 Clone the Repository**
-#### **Option 1: Using Command Line (For Advanced Users)**
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/python-for-drilling-engineers.git
-cd python-for-drilling-engineers
-```
-
-#### **Option 2: Using GitHub Desktop (For Beginners)**
+#### **Option 1: Using GitHub Desktop (For Beginners)**
 1. Open **GitHub Desktop**.
 2. Click **File > Clone Repository**.
 3. Select **GitHub.com** and find `python-for-drilling-engineers`.
 4. Click **Clone** and select a folder on your computer.
 5. Once cloned, open it in **VSCode** by clicking **Repository > Open in Visual Studio Code**.
+
+#### **Option 2: Using Command Line (For Command Line Users)**
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/python-for-drilling-engineers.git
+cd python-for-drilling-engineers
+```
+
+
 
 ---
 

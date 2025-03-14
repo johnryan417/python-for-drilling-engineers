@@ -4,10 +4,22 @@
 Welcome to the **Python for Drilling Engineers** course! This guide will walk you through setting up your development environment so you can run Jupyter notebooks and work on Python-based drilling data analysis.
 
 By following this guide, you'll be able to:
+- Install VS Code
 - Install Python and necessary libraries
 - Set up a virtual environment
 - Clone the course repository from GitHub
 - Run Jupyter notebooks inside VSCode
+
+### **1.1: Download & Install Visual Studio Code**
+You can install any popular code editor, however, in this course we will use **VSCode** to write and run Python and Jupyter notebooks. To install VSCode:
+
+- Go to the VSCode download page: https://code.visualstudio.com/download
+- Select the version for your OS:
+- Windows: Download .exe
+- Mac: Download .dmg
+- Linux: Download .deb or .rpm
+- Run the installer and follow the setup instructions.
+- Enable Extensions: During installation, check the box for "Add to PATH" (important for using it from the terminal).
 
 ---
 

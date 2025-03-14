@@ -179,17 +179,7 @@ pip install --upgrade -r requirements.txt
 
 ---
 
-## **9. Pushing Your Work to GitHub**
-After making changes, push your work to GitHub using:
-```bash
-git add .
-git commit -m "Updated project setup"
-git push origin main
-```
-
----
-
-## **10. Troubleshooting**
+## **9. Troubleshooting**
 
 ### **Issue: Python Not Found**
 - Ensure Python is installed and added to the system PATH.
@@ -205,7 +195,7 @@ git push origin main
 
 ---
 
-## **11. Next Steps**
+## **10. Next Steps**
 Congratulations! 🎉 You now have a fully functional Python environment for the **Python for Drilling Engineers** course.
 
 You’re now ready to:

@@ -14,7 +14,7 @@ By following this guide, you'll be able to:
 ## **2. Install Prerequisites**
 
 ### **2.1 Install Python**
-Ensure you have Python **3.8 or later** installed.
+Ensure you have Python **3.10.9** installed. 
 
 **Check if Python is installed:**
 ```bash
@@ -25,6 +25,9 @@ or
 python3 --version
 ```
 If Python is not installed, download and install it from [python.org](https://www.python.org/downloads/).
+- Scroll down to section titled **"Looking for a specific release?"**
+- Find "Release version" Python 3.10.9 and click the **Download** link
+- Scroll down to section titled Files and select *macOS 64-bit universal2 installer* or *Windows installer (64-bit)* depending on your OS
 
 ✅ **Windows Users:** During installation, check the box **"Add Python to PATH"** before clicking Install.
 

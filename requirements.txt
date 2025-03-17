@@ -6,3 +6,4 @@ numpy==2.2.3
 XlsxWriter==3.2.2
 jupyter==1.1.1
 ipykernel==6.29.5
+ydata-profiling==4.14.0

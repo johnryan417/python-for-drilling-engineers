@@ -1,5 +1,10 @@
-# Python for Drilling Engineers - Environment Setup Guide
 ![Animo Logo](https://github.com/johnryan417/python-for-drilling-engineers/blob/module-1/main/assets/animo_signature_hallow.png)
+# Python for Drilling Engineers - Environment Setup Guide
+## A Quick Foreword
+At Astra Innovations our mission is to empower operations teams to **take their time back** from the mundane, routine, non-value-adding tasks that still must be done.
+What better way to do this than to teach the industry the fundamentals of Python? In this course you will learn how to solve real drilling challenges with real drilling data.
+
+Our goal is to ensure that by the end of the course you will have the confidence to leverage Python in your daily workflows to take back your time, and for those who want to really supercharge their workflows, leverage **Animo's** rest APIs to do more with your data, and make better decisions faster.
 
 ## **1. Introduction**
 Welcome to the **Python for Drilling Engineers** course! This guide will walk you through setting up your development environment so you can run Jupyter notebooks and work on Python-based drilling data analysis.
@@ -196,7 +201,47 @@ pip install --upgrade -r requirements.txt
 
 ---
 
-## **10. Next Steps**
+## ** 10. ✅ Track Your Setup Progress**
+
+To ensure you have completed all the setup steps correctly, we provide an automated **progress tracking notebook**. This will check if Python, the virtual environment, required libraries, and Jupyter Notebook are properly installed.
+
+### **1️⃣ Open Jupyter Notebook**
+First, ensure your virtual environment is activated:
+- **Windows** (Command Prompt / PowerShell):
+  ```sh
+  venv\Scripts\activate
+  ```
+- **Mac/Linux** (Terminal):
+  ```sh
+  source venv/bin/activate
+  ```
+
+Then, launch Jupyter Notebook:
+```sh
+jupyter notebook
+```
+
+### **2️⃣ Open the Setup Progress Notebook**
+- Navigate to the repository folder (`python-for-drilling-engineers/setup_progress`).
+- Click on **`setup_progress_check.ipynb`** to open it.
+
+### **3️⃣ Run the Notebook**
+1. Inside Jupyter Notebook, click **Run All** (`Cell > Run All`).
+2. The notebook will check:
+   - ✅ Python version (3.10.9) or greater
+   - ✅ Virtual environment status
+   - ✅ Required libraries installation
+   - ✅ Jupyter Notebook installation
+
+3. **Fix any missing setup steps** based on the messages shown.
+4. Copy the message at the bottom of the setup_progress_check Jupyter notebook and paste it in an email to rdavis@astra-ai.com to confirm your status ahead of the course.
+
+### **4️⃣ Rerun Anytime**
+You can rerun `setup_progress.ipynb` anytime to check your setup. Your progress will be saved locally in `progress.json` (no GitHub push required).
+
+🚀 **Once everything shows as ✅, you're ready to start the course!**
+
+## **11. Next Steps**
 Congratulations! 🎉 You now have a fully functional Python environment for the **Python for Drilling Engineers** course.
 
 You’re now ready to:

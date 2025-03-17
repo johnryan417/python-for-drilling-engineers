@@ -1,5 +1,5 @@
 # Python for Drilling Engineers - Environment Setup Guide
-![Animo Logo](https://raw.githubusercontent.com/johnryan417/python-for-drilling-engineers/main/assets/animo_signature_hallow.png)
+![Animo Logo](https://github.com/johnryan417/python-for-drilling-engineers/blob/module-1/main/assets/animo_signature_hallow.png)
 
 ## **1. Introduction**
 Welcome to the **Python for Drilling Engineers** course! This guide will walk you through setting up your development environment so you can run Jupyter notebooks and work on Python-based drilling data analysis.

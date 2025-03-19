@@ -6,6 +6,41 @@ What better way to do this than to teach the industry the fundamentals of Python
 
 Our goal is to ensure that by the end of the course you will have the confidence to leverage Python in your daily workflows to take back your time, and for those who want to really supercharge their workflows, leverage **Animo's** rest APIs to do more with your data, and make better decisions faster.
 
+
+# 🛠️ Python for Drilling Engineers - Setup Guide
+
+## 🚀 Keeping it Simple with Google Colab
+
+To make it simple for all to run the course materials without any installation issues, we will primarily use **Google Colab**—a free, cloud-based Jupyter Notebook environment. This means:
+
+✅ No need to install Python or Jupyter locally.  
+✅ No need to configure virtual environments.  
+✅ No software conflicts—everything runs in the cloud.  
+
+### **🔗 Start Coding Instantly with Google Colab**
+Click the link below to open the course materials in Google Colab:  
+
+👉 **[Open in Google Colab](https://colab.research.google.com/)**  
+
+- On the side bar select **GitHub**
+- At the top copy/paste the GitHub url: https://github.com/johnryan417/python-for-drilling-engineers
+- At the bottom under "Path" select the file: **hello_world.ipynb**
+- Follow the instructions in the Jupyter Notebook.
+
+That's it! You're all set for Module 1 of Python for Drilling Engineers.
+
+---
+
+## 🖥️ Optional: Set Up a Local Development Environment  
+
+If you prefer to run the course **locally on your machine**, you can follow the setup instructions below. This will allow you to work offline and use VSCode or Jupyter Notebook directly.  
+
+🔹 **Follow these steps** to install Python, set up your environment, and run Jupyter locally.  
+🔹 If you encounter issues, you can always switch to **Google Colab** at any time!  
+
+**⬇️ Continue below for the full local setup guide...**  
+
+
 ## **1. Introduction**
 Welcome to the **Python for Drilling Engineers** course! This guide will walk you through setting up your development environment so you can run Jupyter notebooks and work on Python-based drilling data analysis.
 
@@ -32,7 +67,8 @@ You can install any popular code editor, however, in this course we will use **V
 ## **2. Install Prerequisites**
 
 ### **2.1 Install Python**
-Ensure you have Python **3.10.9** installed. 
+
+Ensure you have Python **3.10.9** or greater installed. 
 
 **Check if Python is installed:**
 ```bash
@@ -65,8 +101,15 @@ Download and install Git from [git-scm.com](https://git-scm.com/downloads).
 ---
 
 ## **3. Clone the Course Repository**
+### **3.1 Option 1: Using GitHub Desktop (For Beginners)**
+1. Open **GitHub Desktop**.
+2. Click **File > Clone Repository**.
+3. Select **GitHub.com** and find `python-for-drilling-engineers`.
+4. Click **Clone** and select a folder on your computer.
+5. Once cloned, open it in **VSCode** by clicking **Repository > Open in Visual Studio Code**.
 
-### **3.1 Open Command Prompt or Terminal**
+### **3.1 Option 2: Using Command Line
+#### **3.1.1 Open Command Prompt or Terminal**
 #### **Windows:**
 - Press `Win + S`, type **"Command Prompt"**, and press **Enter**.
 - Or open **VSCode > Terminal > New Terminal**.
@@ -74,22 +117,12 @@ Download and install Git from [git-scm.com](https://git-scm.com/downloads).
 #### **Mac/Linux:**
 - Open **Terminal** (`Cmd + Space`, type `Terminal`, press Enter).
 
-### **3.2 Clone the Repository**
-#### **Option 1: Using GitHub Desktop (For Beginners)**
-1. Open **GitHub Desktop**.
-2. Click **File > Clone Repository**.
-3. Select **GitHub.com** and find `python-for-drilling-engineers`.
-4. Click **Clone** and select a folder on your computer.
-5. Once cloned, open it in **VSCode** by clicking **Repository > Open in Visual Studio Code**.
-
-#### **Option 2: Using Command Line (For Command Line Users)**
+### **3.1.2 Clone the Repository**
+- Copy/paste the two lines of code below in the Terminal.
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/python-for-drilling-engineers.git
+git clone https://github.com/johnryan417/python-for-drilling-engineers.git
 cd python-for-drilling-engineers
 ```
-
-
-
 ---
 
 ## **4. Set Up Your Python Environment**
@@ -97,7 +130,7 @@ cd python-for-drilling-engineers
 ### **4.1 Create a Virtual Environment**
 A **virtual environment** ensures that all course dependencies remain isolated from your system Python installation.
 
-Run the following commands:
+Open VS Code, go to the Terminal window, and run the following commands:
 ```bash
 cd python-for-drilling-engineers  # Navigate to the project folder
 python -m venv venv  # Create a virtual environment

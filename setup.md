@@ -6,6 +6,7 @@ What better way to do this than to teach the industry the fundamentals of Python
 
 Our goal is to ensure that by the end of the course you will have the confidence to leverage Python in your daily workflows to take back your time, and for those who want to really supercharge their workflows, leverage **Animo's** rest APIs to do more with your data, and make better decisions faster.
 
+
 # 🛠️ Python for Drilling Engineers - Setup Guide
 
 ## 🚀 Keeping it Simple with Google Colab
@@ -66,6 +67,7 @@ You can install any popular code editor, however, in this course we will use **V
 ## **2. Install Prerequisites**
 
 ### **2.1 Install Python**
+
 Ensure you have Python **3.10.9** or greater installed. 
 
 **Check if Python is installed:**
@@ -121,7 +123,6 @@ Download and install Git from [git-scm.com](https://git-scm.com/downloads).
 git clone https://github.com/johnryan417/python-for-drilling-engineers.git
 cd python-for-drilling-engineers
 ```
-
 ---
 
 ## **4. Set Up Your Python Environment**
